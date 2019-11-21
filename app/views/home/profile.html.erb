@@ -1,0 +1,3 @@
+<%@user.each do |user|  %>
+  <p><%= link_to user.email, new_message_path(user.id) %></p>
+<%end %>
